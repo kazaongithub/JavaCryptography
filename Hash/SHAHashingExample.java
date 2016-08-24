@@ -30,7 +30,6 @@ public class SHAHashingExample
 {
 	public static void main(String[] args) throws Exception
 	{
-
 		// String data
 		String password = "123456";
 
@@ -45,7 +44,6 @@ public class SHAHashingExample
 			sb.append(Integer.toString((byteData[i] & 0xff) + 0x100, 16).substring(1));
 		}
 
-		
 		System.out.println("Hex format: " + sb.toString());
 	}
 }
